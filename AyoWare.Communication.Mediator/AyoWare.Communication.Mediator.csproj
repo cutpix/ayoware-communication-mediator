@@ -1,7 +1,19 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Company>AyoWare</Company>
+    <Product>Communication.Mediator</Product>
+    <Authors>Andrii Pavliuk</Authors>
+    <Description>Request and response pattern implementation.</Description>
+    <PackageProjectUrl>https://www.ayoware.com</PackageProjectUrl>
+    <PackageIcon></PackageIcon>
+    <RepositoryUrl>https://github.com/cutpix/ayoware-communication-mediator</RepositoryUrl>
+    <NeutralLanguage>en</NeutralLanguage>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>Handler, Mediator, Request, Response</PackageTags>
+    <PackageReleaseNotes>Library to help in handling request and responses.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
