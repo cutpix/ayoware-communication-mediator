@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AyoWare.Communication.Mediator", "AyoWare.Communication.Mediator\AyoWare.Communication.Mediator.csproj", "{B252A7B6-00A3-4BD0-B59F-549D2D79DCCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B252A7B6-00A3-4BD0-B59F-549D2D79DCCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B252A7B6-00A3-4BD0-B59F-549D2D79DCCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B252A7B6-00A3-4BD0-B59F-549D2D79DCCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B252A7B6-00A3-4BD0-B59F-549D2D79DCCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82F91721-6FD9-44E9-859F-9B4F82286ADE}
+	EndGlobalSection
+EndGlobal
