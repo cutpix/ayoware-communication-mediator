@@ -34,7 +34,6 @@ namespace AyoWare.Communication.Mediator
             }
 
             _logger.Debug("Beginning request: {@request}", request);
-            // https://medium.com/bynder-tech/c-why-you-should-use-configureawait-false-in-your-library-code-d7837dce3d7f
             var model = await HandleAsync(request, cancellationToken).ConfigureAwait(false);
             _logger.Debug("Got a response: {@response}", model);
 
@@ -54,7 +53,7 @@ namespace AyoWare.Communication.Mediator
             return new StatusCodeResult((int)model.HttpStatusCode);
         }
 
-        protected abstract Task<HttpResponse> HandleAsync(TRequest input, CancellationToken cancellationToken = default(CancellationToken));
+        protected abstract Task<HttpResponse> HandleAsync(TRequest input, CancellationToken cancellationToken = default);
 
         protected HttpResponse Ok<TResponse>(TResponse response) where TResponse : class
         {
